@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #000000;
+}
+
+.pfpbox {
+    width: 500px;
+    height: 700px;
+    background-color: rgb(99, 99, 99);
+    border-radius: 10px;
+    border: solid rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    max-width: 90%;
+    max-height: 90%;
+    border-radius: 10px;
+    border: solid rgb(0, 0, 0);
+}

@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aquamarine;
+    text-align: center;
+    padding: 30px;
+}
+
+h1 {
+    color: blueviolet;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.grid-container {
+    display: grid;
+    color:rgb(88, 99, 255);
+    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 auto;
+    
+}
+
+
+.grid-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(23, 23, 24);
+    transition: transform 2s ease-in-out;
+}
+
+.grid-item img:hover {
+    transform: scale(1.1);
+}
